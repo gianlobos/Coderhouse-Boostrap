@@ -1,0 +1,78 @@
+/*==============================NAVBAR==============================*/
+
+.navbar {
+    background-color: #003459;
+}
+
+.index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index li{
+    margin: 1.5rem;
+    margin-top: 2.5rem;
+    padding: 1rem;
+    color:#003459;
+    font-family: 'Kdam Thmor Pro', sans-serif; ;
+    font-size: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgba(0,153,204,.9);
+}
+
+.footer{
+    background-color: rgba(0,153,204,.9);
+    }
+
+/*==============================TITLE==============================*/
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-top: 2rem;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-top: 2rem;
+}
+
+/*==============================MAIN==============================*/
+
+article{ /*-------Párrafo principal-------*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 21px;
+    padding: 2rem;
+}
+
+.table{ /*------Tabla de posiciones------*/
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    border-color: #003459;
+}
+
+.racing-campeon{
+    margin-left: 14rem;
+    margin-bottom: 3rem;
+}
+
+

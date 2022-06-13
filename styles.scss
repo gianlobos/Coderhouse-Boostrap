@@ -1,0 +1,19 @@
+@import "index1";
+
+body{
+    background-color: rgba(0,153,204,.9);
+        main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Kdam Thmor Pro', sans-serif; ;
+            color: white;
+            }
+            h1{
+                font-size: 40px;
+            }
+            h2{
+                font-size: 20px;
+            }
+}
